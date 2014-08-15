@@ -12,7 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    NSLog(@"Hola, es un ejemplo del libro.");
+    
     return YES;
 }
 							
