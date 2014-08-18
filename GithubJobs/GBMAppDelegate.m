@@ -14,6 +14,8 @@
 {
     // Override point for customization after application launch.
     NSLog(@"Commit ejemplo");
+
+    NSLog(@"Hola, es un ejemplo del libro.");
     
     return YES;
 }
@@ -46,3 +48,27 @@
 }
 
 @end
+
+/*
+
+ - Iniciar cocoaPods
+    - pod init
+    - agregar dependencies
+    - pod install
+    - Nota: es necesario correr el pod install si se agrega un nuevo ambiente
+ - Instalar .gitignore "https://raw.githubusercontent.com/github/gitignore/master/Global/Xcode.gitignore"
+ - Agregar AdHoc como nuevo Target, copiando el de Debug
+ - BuildSettings/Build Active Architecture Only, adhoc lo ponemos en NO, para que realice repidamente la compilacion
+ - adhoc Analyze During Build adhoc ponerlo en YES
+ - BuildSettings/GCC_PREPROCESSOR_DEFINITIONS
+ - User-Defined para relación URL <-> TARGETS; es necesario declarar en el plist para accesar
+ - Para levantar un servidor rapido; ir al directorio y con la terminal -> ruby -run -e httpd . -p 9000
+ - Cambiar Bundle versions string, short 0.1
+ - Cambiar Bundle version 0.1
+ - plcrashreporter.org -> opensource
+ - Utilidad para cargar aplicacion sin usar iTunes http://support.apple.com/downloads/#iphone
+ - actualizar ruby si es necesario "\curl -L https://get.rvm.io | bash -s stable --ruby"
+ - Error Shenzhen quitar con ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future gem install json
+ - intalar shenzhen para crear versiones de apps rapidamente https://github.com/nomad/shenzhen  ; $ ipa build -c AdHoc -d ~/Desktop
+ - Cambiando la direccion de Jenkins   $java -jar jenkins.war --httpPort=8908 --httpListenAddress=192.168.1.14
+*/

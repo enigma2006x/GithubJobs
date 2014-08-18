@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GBMViewController : UIViewController
+@interface GBMViewController : UITableViewController
+
+@property (nonatomic, strong) NSArray *jobs;
 
 @end
