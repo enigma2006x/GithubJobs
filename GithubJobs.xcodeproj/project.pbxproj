@@ -387,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json?description=ios&location=NY";
+				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json?description=ios&location=NY";
+				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,6 +455,7 @@
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GithubJobs/GithubJobs-Prefix.pch";
+				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json";
 				INFOPLIST_FILE = "GithubJobs/GithubJobs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -533,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json?description=ios&location=NY";
+				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -551,6 +552,7 @@
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GithubJobs/GithubJobs-Prefix.pch";
+				GITHUB_JOBS_ENDPOINT = "https://jobs.github.com/positions.json";
 				INFOPLIST_FILE = "GithubJobs/GithubJobs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME) beta";
 				WRAPPER_EXTENSION = app;
